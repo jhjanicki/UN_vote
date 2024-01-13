@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>D3 square cartogram: vanilla</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      body{
+         font-family: 'Source Sans Pro', sans-serif;
+         margin: 0px;
+        padding: 0px;
+
+      }
+      svg {
+        background-color: #373d55;
+        margin: 0px;
+        padding: 0px;
+      }
+      #next{
+        position: absolute;
+        top: 10px;
+        left: 50px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: white;
+      }
+
+      #next:hover{
+        cursor: pointer;
+      }
+
+    </style>
+  </head>
+  <body>
+    <p id="next">Next</p>
+    <div id="chart"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.2/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./data/data.js"></script>
+    <script src="./main.js"></script>
+
+  </body>
+</html>
