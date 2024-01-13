@@ -1,11 +1,7 @@
 # Description
-Sqaure cartogram using pure D3, showing CO2 emissions per capita in metric tons by country. If a country lacks data it's shown as grey.
+How UN member states voted on three resolutions related to Ukraine and Gaza
 
 # Data
-World Bank
+UN
 
-# Code
-Example based on this repository: https://github.com/StudioV2/Demers_Cartogram_Example
-
-
-![map](https://github.com/jhjanicki/d3_cartogram_vanilla/assets/6565011/56461a2c-bb18-4986-b41e-653ac1d7fe43)
+<img width="1681" alt="Screenshot 2024-01-13 at 18 04 43" src="https://github.com/jhjanicki/UN_vote/assets/6565011/c049663b-c5ef-46b7-b305-d19f09be3a61">
